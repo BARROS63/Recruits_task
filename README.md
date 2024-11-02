@@ -22,13 +22,13 @@ problem. With the information capture, the next step is to send that information
 formatted to the CAN Bus line of the car.
 The objectives are detailed below:
 System Component allocated, Teensy 4.1, LV battery, logic, CAN Bus line;
-Teensy 4.1 The micro-controller used in the car is the teensy 4.1, so that is the micro-
-controller that everyone will be using when developing the LV task. Every 5 CAN messages
-change the ”endianess” of the CAN message.
-Diagram Create a diagram, mainly in draw.io which is the diagram working tool that
-the department uses on a daily basis, with all the connections from the LV battery to your
-system;
-Git Hub All the code must be placed in the Git Hub of the department, at the end of
+Teensy 4.1 The **micro-controller used in the car is the teensy 4.1**, so that is the micro-
+controller that everyone will be using when developing the LV task. **Every 5 CAN messages
+change the ”endianess” of the CAN message**.
+Diagram Create a diagram, mainly in **draw.io** which is the diagram working tool that
+the department uses on a daily basis, with **all the connections from the LV battery to your
+system**;
+**Git Hub All the code must be placed in the Git Hub of the department**, at the end of
 your code development the code must be sent to the main branch of the repository;
 
 4 Problem 3
