@@ -39,3 +39,5 @@ The accumulator fan is one of the various fans used to cool the accumulator.
 The fan has the ability to establish its working flow, create parameters for the Fan, and
 send the percentage of usage from the Fan to the CAN Bus line.
 Reference Number: FAN THA0412AD-TZW3
+
+Depois de analizarmos esta tarefa começamos a debater o assunto como se pode seguir neste documento: https://docs.google.com/document/d/1M0zEswSCs2SwRigVjaOJ_NzieEs323r_098EL5MVloY/edit?usp=sharing
