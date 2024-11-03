@@ -13,6 +13,8 @@ testforcodebyChatGPT: código para testar o código
 
 A testagem destes códigos foi feita na plataformIO.
 
+[Draw.io](https://app.diagrams.net/) 
+
 Depois de analizarmos esta tarefa começamos a debater o assunto como se pode seguir neste documento: [Google Docs Tarefa 3](https://docs.google.com/document/d/1M0zEswSCs2SwRigVjaOJ_NzieEs323r_098EL5MVloY/edit?usp=sharing)   
 Este documentos contem tudo o que nós fizemos e pensamos durante a realização desta tarefa.
 
