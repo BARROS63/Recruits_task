@@ -1,43 +1,17 @@
 # Recruits_task
 
-1 Introduction
+## Accumulator Fan
 
-The primary goal of the first tasks is to validate the Low Voltage and Software presen-
-tation and to create some initial functional and mind problems to combat this initial inertia
-on the overall LV system functionality:
+A fan do acumulador contem 4 pinos, cada um com a sua função. 
+A [datasheet](https://pt.mouser.com/datasheet/2/632/THA0412AD_TZW3-3435003.pdf) permite verificar a funcionalidade de cada um desses pinos. Contudo aquele que se destaca é o que permite PWM, visto que assim a ventoinha pode alterar a sua velocidade de rotação sem que tenha de baixar a voltagem, permitindo com que o sistema funcione de maneira mais estável.
 
-• Problem 1: Brake Pressure Sensor (BSPD)
-• Problem 2: Current Sensor (BSPD)
-• Problem 3: Accumulator Fan
-• Problem 4: Accelerator Pedal Position Sensor (APPS)
+Este repositório tem os seguintes códigos:
 
-The goal in each task is to create all the low voltage connections to give life to each
-component. Always be careful to design a system that is rule-compliant with 2025 Formula
-Student Germany (FSG). In each problem create code to extract the main information
-relative to each low-voltage component in the individual task.
-Main objectives in these tasks are the same for every problem created, each group
-associated with a single problem has to create all the connections from the low voltage
-battery of the car to the system created in order to extract the information detail in each
-problem. With the information capture, the next step is to send that information well-
-formatted to the CAN Bus line of the car.
-The objectives are detailed below:
-System Component allocated, Teensy 4.1, LV battery, logic, CAN Bus line;
-Teensy 4.1 The **micro-controller used in the car is the teensy 4.1**, so that is the micro-
-controller that everyone will be using when developing the LV task. **Every 5 CAN messages
-change the ”endianess” of the CAN message**.
-Diagram Create a diagram, mainly in **draw.io** which is the diagram working tool that
-the department uses on a daily basis, with **all the connections from the LV battery to your
-system**;
-**Git Hub All the code must be placed in the Git Hub of the department**, at the end of
-your code development the code must be sent to the main branch of the repository;
+fan-code: código inicialmente desenvolvido com alguns bugs e erros 
+codebyChatGPT: código inicialmente desenvolvido corrigido pelo chatGPT
+testforcodebyChatGPT: código para testar o código
 
-4 Problem 3
+Depois de analizarmos esta tarefa começamos a debater o assunto como se pode seguir neste documento: [Google Docs Tarefa 3](https://docs.google.com/document/d/1M0zEswSCs2SwRigVjaOJ_NzieEs323r_098EL5MVloY/edit?usp=sharing)   
+Este documentos contem tudo o que nós fizemos e pensamos durante a realização desta tarefa.
 
-4.1 Accumulator Fan
-
-The accumulator fan is one of the various fans used to cool the accumulator.
-The fan has the ability to establish its working flow, create parameters for the Fan, and
-send the percentage of usage from the Fan to the CAN Bus line.
-Reference Number: FAN THA0412AD-TZW3
-
-Depois de analizarmos esta tarefa começamos a debater o assunto como se pode seguir neste documento: https://docs.google.com/document/d/1M0zEswSCs2SwRigVjaOJ_NzieEs323r_098EL5MVloY/edit?usp=sharing
+Para além disso utlizamos o [Google Slides](https://docs.google.com/presentation/d/1TVCae_7s-xLUJJVxWepHVKcx6VZjGePu2-8Yi_LO3ZU/edit?usp=sharing)
