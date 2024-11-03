@@ -7,8 +7,8 @@ A [datasheet](https://pt.mouser.com/datasheet/2/632/THA0412AD_TZW3-3435003.pdf) 
 
 Este repositório tem os seguintes códigos:
 
-fan-code: código inicialmente desenvolvido com alguns bugs e erros 
-codebyChatGPT: código inicialmente desenvolvido corrigido pelo chatGPT
+fan-code: código inicialmente desenvolvido com alguns bugs e erros  
+codebyChatGPT: código inicialmente desenvolvido corrigido pelo chatGPT  
 testforcodebyChatGPT: código para testar o código
 
 Depois de analizarmos esta tarefa começamos a debater o assunto como se pode seguir neste documento: [Google Docs Tarefa 3](https://docs.google.com/document/d/1M0zEswSCs2SwRigVjaOJ_NzieEs323r_098EL5MVloY/edit?usp=sharing)   
